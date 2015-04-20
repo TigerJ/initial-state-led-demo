@@ -3,7 +3,7 @@ from time import sleep ##import time for delays
 
 ##setup streamer
 from ISStreamer.Streamer import Streamer
-streamer = Streamer(bucket_name="Double Button LED", bucket_key="LED TESTS", access_key="2S9z7XNGuNCCoC3uPcjyi8bbN4nEqqCH")
+streamer = Streamer(bucket_name="Double Button LED", bucket_key="LED TESTS", access_key="")
 
 counter = 0
 
