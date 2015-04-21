@@ -17,7 +17,9 @@ GPIO.setup(18, GPIO.IN)
 GPIO.setup(7, GPIO.OUT)
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
-
+GPIO.output(7, GPIO.HIGH)
+GPIO.output(11, GPIO.HIGH)
+GPIO.output(13, GPIO.HIGH)
 state = 0
 
 inc = 1
